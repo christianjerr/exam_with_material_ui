@@ -1,0 +1,340 @@
+{
+  "countriesArray": [
+    {
+      "code": "AUS",
+      "name": "Australia",
+      "states": [
+        {
+          "code": "NSW",
+          "name": "NEW SOUTH WALES",
+          "cities": [
+            {
+              "name": "Sydney",
+              "population": 390855
+            },
+            {
+              "name": "Newcastle",
+              "population": 308308
+            },
+            {
+              "name": "Central Coast",
+              "population": 297713
+            },
+            {
+              "name": "Wollongong",
+              "population": 245942
+            },
+            {
+              "name": "Maitland",
+              "population": 67132
+            },
+            {
+              "name": "Tweed Heads",
+              "population": 55553
+            },
+            {
+              "name": "Wagga Wagga",
+              "population": 46913
+            },
+            {
+              "name": "Albury Wodonga",
+              "population": 45627
+            },
+            {
+              "name": "Coffs Harbour Port",
+              "population": 45580
+            },
+            {
+              "name": "Macquarie",
+              "population": 41491
+            },
+            {
+              "name": "Tamworth",
+              "population": 36131
+            },
+            {
+              "name": "Orange",
+              "population": 34992
+            },
+            {
+              "name": "Dubbo",
+              "population": 32327
+            },
+            {
+              "name": "Bathurst",
+              "population": 31294
+            },
+            {
+              "name": "Blue Mountains",
+              "population": 28769
+            }
+          ]
+        },
+        {
+          "code": "QLD",
+          "name": "QUEENSLAND",
+          "cities": [
+            {
+              "name": "Brisbane",
+              "population": 246277
+            },
+            {
+              "name": "Sunshine Coast",
+              "population": 333436
+            },
+            {
+              "name": "Townsville",
+              "population": 180820
+            },
+            {
+              "name": "Cairns",
+              "population": 152729
+            },
+            {
+              "name": "Toowoomba",
+              "population": 136861
+            },
+            {
+              "name": "Mackay",
+              "population": 80148
+            },
+            {
+              "name": "Rockhampton",
+              "population": 78592
+            },
+            {
+              "name": "Bundaberg",
+              "population": 70921
+            },
+            {
+              "name": "Hervey Bay",
+              "population": 54674
+            },
+            {
+              "name": "Maryborough",
+              "population": 27282
+            },
+            {
+              "name": "Gympie",
+              "population": 21599
+            },
+            {
+              "name": "Yeppoon",
+              "population": 19003
+            },
+            {
+              "name": "Mount Isa",
+              "population": 18588
+            },
+            {
+              "name": "Warwick",
+              "population": 15380
+            }
+          ]
+        },
+        {
+          "code": "SA",
+          "name": "SOUTH AUSTRALIA",
+          "cities": [
+            {
+              "name": "Adelaide",
+              "population": 10402
+            },
+            {
+              "name": "Gawler",
+              "population": 20006
+            },
+            {
+              "name": "Mount Gambier",
+              "population": 23494
+            },
+            {
+              "name": "Whyalla",
+              "population": 21122
+            },
+            {
+              "name": "Murray Bridge",
+              "population": 14048
+            },
+            {
+              "name": "Mount Barker",
+              "population": 11540
+            },
+            {
+              "name": "Victor Harbor",
+              "population": 10380
+            },
+            {
+              "name": "Port Lincoln",
+              "population": 13044
+            },
+            {
+              "name": "Port Pirie",
+              "population": 13206
+            },
+            {
+              "name": "Port Augusta",
+              "population": 13257
+            },
+            {
+              "name": "Goolwa",
+              "population": 5882
+            },
+            {
+              "name": "Nuriootpa",
+              "population": 4414
+            },
+            {
+              "name": "Strathalbyn",
+              "population": 3894
+            },
+            {
+              "name": "Naracoorte",
+              "population": 4888
+            },
+            {
+              "name": "Nairne",
+              "population": 3470
+            }
+          ]
+        },
+        {
+          "code": "VIC",
+          "name": "VICTORIA",
+          "cities": [
+            {
+              "name": "Melbourne",
+              "population": 337520
+            },
+            {
+              "name": "Geelong",
+              "population": 135965
+            },
+            {
+              "name": "Bendigo",
+              "population": 717766
+            },
+            {
+              "name": "Ballarat",
+              "population": 75420
+            },
+            {
+              "name": "Melton",
+              "population": 35194
+            },
+            {
+              "name": "Wodonga",
+              "population": 29538
+            },
+            {
+              "name": "Sunbury",
+              "population": 29071
+            },
+            {
+              "name": "Pakenham",
+              "population": 18621
+            },
+            {
+              "name": "Mildura",
+              "population": 30761
+            },
+            {
+              "name": "Warrnambool",
+              "population": 28015
+            },
+            {
+              "name": "Traralgon",
+              "population": 21474
+            },
+            {
+              "name": "Wangaratta",
+              "population": 16732
+            },
+            {
+              "name": "Bacchus Marsh",
+              "population": 13046
+            },
+            {
+              "name": "Horsham",
+              "population": 13945
+            },
+            {
+              "name": "Warragul",
+              "population": 11333
+            },
+            {
+              "name": "Morwell",
+              "population": 13399
+            }
+          ]
+        },
+        {
+          "code": "WA",
+          "name": "WESTERN AUSTRALIA",
+          "cities": [
+            {
+              "name": "Perth",
+              "population": 88745
+            },
+            {
+              "name": "Bunbury",
+              "population": 71090
+            },
+            {
+              "name": "Geraldton",
+              "population": 31982
+            },
+            {
+              "name": "Albany",
+              "population": 29373
+            },
+            {
+              "name": "Busselton",
+              "population": 25329
+            },
+            {
+              "name": "Karratha",
+              "population": 15828
+            },
+            {
+              "name": "Broome",
+              "population": 13984
+            },
+            {
+              "name": "PortHedland",
+              "population": 13828
+            },
+            {
+              "name": "Esperance",
+              "population": 10421
+            },
+            {
+              "name": "Yanchep",
+              "population": 8859
+            },
+            {
+              "name": "Collie",
+              "population": 7192
+            },
+            {
+              "name": "Northam",
+              "population": 6548
+            },
+            {
+              "name": "Margaret River",
+              "population": 6392
+            },
+            {
+              "name": "Dunsborough",
+              "population": 6039
+            },
+            {
+              "name": "Carnarvon",
+              "population": 4426
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
