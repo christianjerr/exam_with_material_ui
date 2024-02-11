@@ -47,28 +47,42 @@ const Main = () => {
   }, []);
   const handleCountryChange = useCallback((e: any) => {
     setInitialCountry("");
+    setInitialStates("");
     setInitialCountry(e.target.value);
   }, []);
 
   const memoizeCountries = useMemo(() => {
-    return initial.map((item) => (
-      <FormControl fullWidth key={item.id}>
+    return (
+      <FormControl fullWidth>
         <InputLabel>Country</InputLabel>
         <Select
           label="countries"
           value={initialCountry}
           onChange={handleCountryChange}
         >
-          <MenuItem key={item.code} value={item.name}>
-            {item.name}
-          </MenuItem>
+          {initial.map((item) => {
+            return (
+              <MenuItem key={item.code} value={item.name}>
+                {item.name}
+              </MenuItem>
+            );
+          })}
         </Select>
       </FormControl>
-    ));
+    );
   }, [handleCountryChange, initial, initialCountry]);
 
   const memoizeState = useMemo(() => {
-    return initial.map((item) => (
+    const selectedStates: string[] = [];
+    const selectedCountry = initial.filter(
+      (item) => item.name === initialCountry
+    );
+
+    selectedCountry[0]?.states.forEach((country) =>
+      selectedStates.push(country.name)
+    );
+
+    return (
       <FormControl fullWidth>
         <InputLabel>States</InputLabel>
         <Select
@@ -76,26 +90,31 @@ const Main = () => {
           label="states"
           onChange={handleStateChange}
         >
-          {item.states.map((state) => (
-            <MenuItem key={state.code} value={state.name}>
-              {state.name}
-            </MenuItem>
-          ))}
+          {selectedStates.map((item) => {
+            return (
+              <MenuItem key={item} value={item}>
+                {item}
+              </MenuItem>
+            );
+          })}
         </Select>
       </FormControl>
-    ));
-  }, [handleStateChange, initial, initialStates]);
+    );
+  }, [handleStateChange, initial, initialCountry, initialStates]);
 
   const memoizedCities = useMemo(() => {
-    const selected = statesSelector.map((item) =>
-      item.filter((s) => s.name === initialStates)
+    const selectedCountry = initial.filter(
+      (item) => item.name === initialCountry
+    );
+
+    const selectedStates = selectedCountry[0]?.states.filter(
+      (item) => item.name === initialStates
     );
 
     return (
-      initialCountry &&
-      selected[0].map((item) => (
-        <Grid container spacing={3}>
-          {item.cities.map((ci) => (
+      <Grid container spacing={3}>
+        {selectedStates &&
+          selectedStates[0]?.cities.map((item) => (
             <Grid item xs={6} md={3}>
               <Box
                 component="section"
@@ -104,12 +123,12 @@ const Main = () => {
                   bgcolor: "#795548",
                   color: "white",
                 }}
-                key={ci.name}
+                key={item.name}
               >
-                <p>{ci.name}</p>
+                <p>{item.name}</p>
                 <br />
                 <p>
-                  {ci.population
+                  {item.population
                     .toString()
                     .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
                 </p>
@@ -118,22 +137,24 @@ const Main = () => {
               </Box>
             </Grid>
           ))}
-        </Grid>
-      ))
+      </Grid>
     );
-  }, [initialCountry, initialStates, statesSelector]);
+  }, [initial, initialCountry, initialStates]);
 
   const memoizeTotalCitizens = useMemo(() => {
-    const selected = statesSelector.map((item) =>
-      item.filter((s) => s.name === initialStates)
+    const selectedCountry = initial.filter(
+      (item) => item.name === initialCountry
     );
-    const cities = selected[0].map((item) => item.cities);
 
-    var sum = cities[0]?.reduce((a: any, b: any) => {
+    const cities = selectedCountry[0]?.states.filter(
+      (state) => state.name === initialStates
+    )[0]?.cities;
+
+    var sum = cities?.reduce((a: any, b: any) => {
       return a + b.population;
     }, 0);
     return sum;
-  }, [initialStates, statesSelector]);
+  }, [initial, initialCountry, initialStates]);
 
   const memoizeWelcomePage = useMemo(() => {
     return initialStates && initialCountry ? (
