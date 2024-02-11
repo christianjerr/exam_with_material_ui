@@ -335,6 +335,630 @@
           ]
         }
       ]
+    },
+    {
+      "code": "USA",
+      "name": "United States of America",
+      "states": [
+        {
+          "code": "AL",
+          "name": "ALABAMA",
+          "cities": [
+            {
+              "name": "Henry",
+              "population": 2688
+            },
+            {
+              "name": "Jefferson",
+              "population": 4522
+            },
+            {
+              "name": "Shelby",
+              "population": 30352
+            },
+            {
+              "name": "Marshall",
+              "population": 21160
+            },
+            {
+              "name": "Tallapoosa",
+              "population": 14875
+            },
+            {
+              "name": "Pickens",
+              "population": 2486
+            },
+            {
+              "name": "Covington",
+              "population": 9015
+            },
+            {
+              "name": "Calhoun",
+              "population": 23106
+            },
+            {
+              "name": "Limestone",
+              "population": 21897
+            },
+            {
+              "name": "Escambia",
+              "population": 10194
+            },
+            {
+              "name": "Etowah",
+              "population": 6048
+            },
+            {
+              "name": "Lee",
+              "population": 53380
+            },
+            {
+              "name": "Baldwin",
+              "population": 8044
+            },
+            {
+              "name": "Mobile",
+              "population": 2558
+            }
+          ]
+        },
+        {
+          "code": "CA",
+          "name": "CALIFORNIA",
+          "cities": [
+            {
+              "name": "Los Angeles",
+              "population": 379244
+            },
+            {
+              "name": "San Diego",
+              "population": 630146
+            },
+            {
+              "name": "Santa Clara",
+              "population": 945942
+            },
+            {
+              "name": "San Francisco",
+              "population": 805235
+            },
+            {
+              "name": "Fresno",
+              "population": 494665
+            },
+            {
+              "name": "Sacramento",
+              "population": 466488
+            },
+            {
+              "name": "Alameda",
+              "population": 390724
+            },
+            {
+              "name": "Kern",
+              "population": 347483
+            },
+            {
+              "name": "Riverside",
+              "population": 303871
+            },
+            {
+              "name": "San Bernardino",
+              "population": 209924
+            },
+            {
+              "name": "Santa Rosa",
+              "population": 167815
+            },
+            {
+              "name": "Tulare",
+              "population": 124442
+            },
+            {
+              "name": "Monterey",
+              "population": 150441
+            },
+            {
+              "name": "Pomona",
+              "population": 149058
+            },
+            {
+              "name": "Torrance",
+              "population": 145538
+            }
+          ]
+        },
+        {
+          "code": "CO",
+          "name": "COLORADO",
+          "cities": [
+            {
+              "name": "Denver",
+              "population": 663862
+            },
+            {
+              "name": "Colorado Springs",
+              "population": 445830
+            },
+            {
+              "name": "Aurora",
+              "population": 353108
+            },
+            {
+              "name": "Fort Collins",
+              "population": 156480
+            },
+            {
+              "name": "Lakewood",
+              "population": 149643
+            },
+            {
+              "name": "Thornton",
+              "population": 130307
+            },
+            {
+              "name": "Arvada",
+              "population": 113574
+            },
+            {
+              "name": "Westminster",
+              "population": 112090
+            },
+            {
+              "name": "Pueblo",
+              "population": 108423
+            },
+            {
+              "name": "Centennial",
+              "population": 107201
+            },
+            {
+              "name": "Boulder",
+              "population": 105112
+            },
+            {
+              "name": "Loveland",
+              "population": 72651
+            },
+            {
+              "name": "Broomfield",
+              "population": 62138
+            },
+            {
+              "name": "Littleton",
+              "population": 44669
+            },
+            {
+              "name": "Northglenn",
+              "population": 38596
+            }
+          ]
+        },
+        {
+          "code": "FL",
+          "name": "FLORIDA",
+          "cities": [
+            {
+              "name": "Jacksonville",
+              "population": 903889
+            },
+            {
+              "name": "Miami",
+              "population": 470914
+            },
+            {
+              "name": "Tampa",
+              "population": 392890
+            },
+            {
+              "name": "Orlando",
+              "population": 285713
+            },
+            {
+              "name": "Hialeah",
+              "population": 238942
+            },
+            {
+              "name": "Tallahassee",
+              "population": 193551
+            },
+            {
+              "name": "Cape Coral",
+              "population": 189343
+            },
+            {
+              "name": "Pembroke Pines",
+              "population": 154823
+            },
+            {
+              "name": "Gainesville",
+              "population": 133857
+            },
+            {
+              "name": "Miramar",
+              "population": 140823
+            },
+            {
+              "name": "Coral Springs",
+              "population": 133507
+            },
+            {
+              "name": "Clearwater",
+              "population": 116478
+            },
+            {
+              "name": "Palm Bay",
+              "population": 114194
+            },
+            {
+              "name": "Pompano Beach",
+              "population": 111954
+            },
+            {
+              "name": "Lakeland",
+              "population": 110516
+            }
+          ]
+        },
+        {
+          "code": "MA",
+          "name": "MASSACHUSETTS",
+          "cities": [
+            {
+              "name": "Agawam",
+              "population": 28438
+            },
+            {
+              "name": "Amesbury",
+              "population": 16283
+            },
+            {
+              "name": "Attleboro",
+              "population": 43593
+            },
+            {
+              "name": "Barnstable",
+              "population": 45193
+            },
+            {
+              "name": "Beverly",
+              "population": 39502
+            },
+            {
+              "name": "Boston",
+              "population": 17660
+            },
+            {
+              "name": "Braintree",
+              "population": 35744
+            },
+            {
+              "name": "Methuen",
+              "population": 7255
+            },
+            {
+              "name": "Springfield",
+              "population": 153060
+            },
+            {
+              "name": "Waltham",
+              "population": 60632
+            },
+            {
+              "name": "Westfield",
+              "population": 41094
+            },
+            {
+              "name": "Winthrop",
+              "population": 17497
+            },
+            {
+              "name": "Worcester",
+              "population": 181045
+            },
+            {
+              "name": "Woburn",
+              "population": 8120
+            },
+            {
+              "name": "Pittsfield",
+              "population": 44737
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CAN",
+      "name": "Canada",
+      "states": [
+        {
+          "code": "YT",
+          "name": "YUKON",
+          "cities": [
+            {
+              "name": "Whitehorse",
+              "population": 5085
+            },
+            {
+              "name": "Carmacks",
+              "population": 493
+            },
+            {
+              "name": "Dawson",
+              "population": 1375
+            },
+            {
+              "name": "Faro",
+              "population": 348
+            },
+            {
+              "name": "Haines Junction",
+              "population": 613
+            },
+            {
+              "name": "Mayo",
+              "population": 200
+            },
+            {
+              "name": "Teslin",
+              "population": 124
+            },
+            {
+              "name": "Watson Lake",
+              "population": 790
+            }
+          ]
+        },
+        {
+          "code": "QC",
+          "name": "QUEBEC",
+          "cities": [
+            {
+              "name": "Montréal",
+              "population": 351966
+            },
+            {
+              "name": "Québec",
+              "population": 705103
+            },
+            {
+              "name": "Sherbrooke",
+              "population": 139565
+            },
+            {
+              "name": "Châteauguay",
+              "population": 71164
+            },
+            {
+              "name": "Drummondville",
+              "population": 8601
+            },
+            {
+              "name": "Granby",
+              "population": 59691
+            },
+            {
+              "name": "Beloeil",
+              "population": 50845
+            },
+            {
+              "name": "Joliette",
+              "population": 45508
+            },
+            {
+              "name": "Victoriaville",
+              "population": 44735
+            },
+            {
+              "name": "Shawinigan",
+              "population": 38211
+            },
+            {
+              "name": "Rimouski",
+              "population": 36942
+            },
+            {
+              "name": "Sorel",
+              "population": 36088
+            }
+          ]
+        },
+        {
+          "code": "ON",
+          "name": "ONTARIO",
+          "cities": [
+            {
+              "name": "Toronto",
+              "population": 514422
+            },
+            {
+              "name": "Hamilton",
+              "population": 671008
+            },
+            {
+              "name": "Kitchener",
+              "population": 446295
+            },
+            {
+              "name": "London",
+              "population": 365715
+            },
+            {
+              "name": "Oshawa",
+              "population": 290704
+            },
+            {
+              "name": "Windsor",
+              "population": 277970
+            },
+            {
+              "name": "Barrie",
+              "population": 140383
+            },
+            {
+              "name": "Guelph",
+              "population": 122457
+            },
+            {
+              "name": "Kingston",
+              "population": 114928
+            },
+            {
+              "name": "Kanata",
+              "population": 104559
+            },
+            {
+              "name": "Milton",
+              "population": 75880
+            },
+            {
+              "name": "Brantford",
+              "population": 98179
+            },
+            {
+              "name": "Thunder Bay",
+              "population": 93952
+            },
+            {
+              "name": "Sudbury",
+              "population": 88054
+            },
+            {
+              "name": "Peterborough",
+              "population": 82094
+            }
+          ]
+        },
+        {
+          "code": "BC",
+          "name": "BRITISH COLUMBIA",
+          "cities": [
+            {
+              "name": "Vancouver",
+              "population": 226474
+            },
+            {
+              "name": "Victoria",
+              "population": 335696
+            },
+            {
+              "name": "Kelowna",
+              "population": 151957
+            },
+            {
+              "name": "Abbotsford",
+              "population": 121279
+            },
+            {
+              "name": "White Rock",
+              "population": 93729
+            },
+            {
+              "name": "Nanaimo",
+              "population": 92004
+            },
+            {
+              "name": "Kamloops",
+              "population": 78026
+            },
+            {
+              "name": "Chilliwack",
+              "population": 73161
+            },
+            {
+              "name": "Prince George",
+              "population": 65510
+            },
+            {
+              "name": "Vernon",
+              "population": 48073
+            },
+            {
+              "name": "Courtenay",
+              "population": 45018
+            },
+            {
+              "name": "Campbell River",
+              "population": 35138
+            },
+            {
+              "name": "Penticton",
+              "population": 33617
+            },
+            {
+              "name": "Mission",
+              "population": 33261
+            },
+            {
+              "name": "Parksville",
+              "population": 23574
+            }
+          ]
+        },
+        {
+          "code": "AB",
+          "name": "ALBERTA",
+          "cities": [
+            {
+              "name": "Calgary",
+              "population": 12374
+            },
+            {
+              "name": "Edmonton",
+              "population": 1062
+            },
+            {
+              "name": "Red Deer",
+              "population": 99718
+            },
+            {
+              "name": "Lethbridge",
+              "population": 87572
+            },
+            {
+              "name": "Fort McMurray",
+              "population": 66573
+            },
+            {
+              "name": "Medicine Hat",
+              "population": 62935
+            },
+            {
+              "name": "Grande Prairie",
+              "population": 62320
+            },
+            {
+              "name": "Airdrie",
+              "population": 61082
+            },
+            {
+              "name": "Spruce Grove",
+              "population": 36125
+            },
+            {
+              "name": "Leduc",
+              "population": 29556
+            },
+            {
+              "name": "Okotoks",
+              "population": 28833
+            },
+            {
+              "name": "Cochrane",
+              "population": 25289
+            },
+            {
+              "name": "Chestermere",
+              "population": 19472
+            },
+            {
+              "name": "Camrose",
+              "population": 18520
+            }
+          ]
+        }
+      ]
     }
   ]
 }
